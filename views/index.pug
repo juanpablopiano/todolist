@@ -1,0 +1,11 @@
+body
+    h1 ToDo list app
+    p Bienvenidos a la diversion
+
+    form(action='/' method='POST')
+        input#description(type='text', placeholder='description' name='description')
+        button(type="submit") enter
+    
+    ul
+        for entry in entries
+            li= entry.description

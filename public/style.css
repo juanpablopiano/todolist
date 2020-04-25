@@ -1,0 +1,22 @@
+body {
+    background-color: #232323;
+    color: #bcbcbc
+}
+
+#list {
+    margin-top: 20px;
+}
+
+td.description {
+    width: 200px;
+}
+
+.description, .delete {
+    border-bottom: 1px solid #cdcdcd;
+    padding: 3px;
+}
+
+.dlt-btn {
+    width: 200px;
+    width: 40px;
+}
